@@ -1,0 +1,248 @@
+{
+  "description": "Dynamic obstacle trajectories for the Lobby scenario",
+  "source_world": "src/robot_gazebo/worlds/Lobby.world",
+  "frame": "original Lobby.world coordinates (metres, yaw about +Z)",
+  "motion": "back-and-forth (ping-pong) at constant speed between waypoint 1 and 2, driven by libobstaclePathPlugin.so; deterministic in sim time",
+  "obstacle": {
+    "shape": "cylinder",
+    "altitude": "from ground (z=0) to h"
+  },
+  "seed": 7,
+  "tiers": [
+    4,
+    6,
+    8,
+    12
+  ],
+  "note": "tier N uses the first N entries (nested subsets)",
+  "obstacles": [
+    {
+      "id": 0,
+      "waypoints": [
+        [
+          1.4573,
+          9.9318,
+          0.8603
+        ],
+        [
+          3.0228,
+          6.9459,
+          0.8603
+        ]
+      ],
+      "radius": 0.3486,
+      "height": 1.7207,
+      "velocity": 0.6429,
+      "path_length": 3.3714
+    },
+    {
+      "id": 1,
+      "waypoints": [
+        [
+          9.2577,
+          14.3444,
+          1.051
+        ],
+        [
+          5.5259,
+          15.4749,
+          1.051
+        ]
+      ],
+      "radius": 0.3335,
+      "height": 2.1019,
+      "velocity": 0.7765,
+      "path_length": 3.8993
+    },
+    {
+      "id": 2,
+      "waypoints": [
+        [
+          21.6186,
+          19.2492,
+          1.0796
+        ],
+        [
+          16.5741,
+          16.7573,
+          1.0796
+        ]
+      ],
+      "radius": 0.4192,
+      "height": 2.1592,
+      "velocity": 0.4598,
+      "path_length": 5.6264
+    },
+    {
+      "id": 3,
+      "waypoints": [
+        [
+          4.4424,
+          4.6556,
+          1.0781
+        ],
+        [
+          4.908,
+          9.0861,
+          1.0781
+        ]
+      ],
+      "radius": 0.3471,
+      "height": 2.1562,
+      "velocity": 0.6175,
+      "path_length": 4.4549
+    },
+    {
+      "id": 4,
+      "waypoints": [
+        [
+          26.1451,
+          9.0512,
+          0.9051
+        ],
+        [
+          23.4793,
+          11.0143,
+          0.9051
+        ]
+      ],
+      "radius": 0.3884,
+      "height": 1.8102,
+      "velocity": 0.3518,
+      "path_length": 3.3106
+    },
+    {
+      "id": 5,
+      "waypoints": [
+        [
+          7.3385,
+          17.2751,
+          0.8249
+        ],
+        [
+          11.5192,
+          16.1036,
+          0.8249
+        ]
+      ],
+      "radius": 0.3951,
+      "height": 1.6498,
+      "velocity": 0.3803,
+      "path_length": 4.3417
+    },
+    {
+      "id": 6,
+      "waypoints": [
+        [
+          13.3783,
+          11.863,
+          1.1952
+        ],
+        [
+          15.4969,
+          8.2606,
+          1.1952
+        ]
+      ],
+      "radius": 0.4406,
+      "height": 2.3904,
+      "velocity": 0.7798,
+      "path_length": 4.1793
+    },
+    {
+      "id": 7,
+      "waypoints": [
+        [
+          15.0132,
+          17.0333,
+          1.0751
+        ],
+        [
+          15.5295,
+          12.2099,
+          1.0751
+        ]
+      ],
+      "radius": 0.376,
+      "height": 2.1502,
+      "velocity": 0.7921,
+      "path_length": 4.8509
+    },
+    {
+      "id": 8,
+      "waypoints": [
+        [
+          22.5679,
+          9.5282,
+          0.831
+        ],
+        [
+          21.753,
+          13.3654,
+          0.831
+        ]
+      ],
+      "radius": 0.3964,
+      "height": 1.662,
+      "velocity": 0.4163,
+      "path_length": 3.9228
+    },
+    {
+      "id": 9,
+      "waypoints": [
+        [
+          1.6351,
+          15.787,
+          0.9249
+        ],
+        [
+          5.3264,
+          11.9192,
+          0.9249
+        ]
+      ],
+      "radius": 0.443,
+      "height": 1.8499,
+      "velocity": 0.6049,
+      "path_length": 5.3465
+    },
+    {
+      "id": 10,
+      "waypoints": [
+        [
+          24.6301,
+          18.9319,
+          0.9057
+        ],
+        [
+          22.1768,
+          15.7152,
+          0.9057
+        ]
+      ],
+      "radius": 0.3603,
+      "height": 1.8114,
+      "velocity": 0.3552,
+      "path_length": 4.0455
+    },
+    {
+      "id": 11,
+      "waypoints": [
+        [
+          16.4549,
+          10.1831,
+          0.8621
+        ],
+        [
+          20.1348,
+          9.0095,
+          0.8621
+        ]
+      ],
+      "radius": 0.349,
+      "height": 1.7243,
+      "velocity": 0.7294,
+      "path_length": 3.8626
+    }
+  ]
+}
