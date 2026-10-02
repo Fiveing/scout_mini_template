@@ -21,3 +21,21 @@ gym.register(
         "rl_games_cfg_entry_point": f"{agents.__name__}:rl_games_ppo_cfg.yaml",
     },
 )
+
+gym.register(
+    id="Template-Scout-Mini-Generated-Env-v0",
+    entry_point=f"{__name__}.scout_mini_generated_env:ScoutMiniGeneratedEnv",
+    disable_env_checker=True,
+    kwargs={
+        "env_cfg_entry_point": f"{__name__}.scout_mini_generated_env_cfg:ScoutMiniGeneratedEnvCfg",
+    },
+)
+
+gym.register(
+    id="Template-Scout-Mini-Lobby-Env-v0",
+    entry_point=f"{__name__}.scout_mini_lobby_env:ScoutMiniLobbyEnv",
+    disable_env_checker=True,
+    kwargs={
+        "env_cfg_entry_point": f"{__name__}.scout_mini_lobby_env_cfg:ScoutMiniLobbyEnvCfg",
+    },
+)
